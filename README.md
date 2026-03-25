@@ -28,5 +28,5 @@ Higher voltage allows the NEMA 17/23 motors to maintain torque at higher speeds,
 ---
 
 ## 🤝 About the Author
-I am Ivan Chuang, a maker and robotics enthusiast. This project is a tribute to the classic Moveo design, brought into the age of Embodied AI.
+I am Ivan Chuang, a maker and robotics enthusiast. This project is a tribute to the classic Moveo design and to Toglefritz, the creator of Build a Giant 3D Printed Robot Arm, bringing these inspirations into the age of Embodied AI.
 
