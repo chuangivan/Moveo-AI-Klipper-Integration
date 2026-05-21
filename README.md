@@ -1,7 +1,7 @@
 # Moveo-AI: Rebirthing the Giant 3D Printed Robot Arm with Klipper & LLM
 
 🚀 **Project Vision**
-In 201x, I built the BCN3D Moveo (Shared on Instructables’ “Build a Giant 3D Printed Robot Arm” as “Ivan Chuang made it!”). Now, in 2026, it's time for a massive brain transplant. This project documents the complete evolution from a legacy 8-bit Arduino/RAMPS setup to a high-performance, 32-bit Klipper-based system integrated
+In 201x, I built the BCN3D Moveo (Shared on Instructables’ “Build a Giant 3D Printed Robot Arm” as “Ivan Chuang made it!”). Now, in 2026, it's time for a massive brain transplant. This project documents the complete evolution from a legacy 8-bit Arduino/RAMPS setup to a high-performance, 32-bit Klipper-based system integrated with Large Language Models (LLMs), Voice Recognition (Whisper), and Microphone-Array-based DOA (Direction of Arrival).
 
 ---
 
