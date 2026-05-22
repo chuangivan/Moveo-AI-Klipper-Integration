@@ -14,7 +14,7 @@ The goal of this phase is to establish a rock-solid electrical, computing, and m
 * **Primary Power Bus:** Upgraded to a single **Mean Well LRS-350-36 (36V)** supply. Both external and onboard drivers share this high-voltage rail directly, eliminating inefficient buck converters on the motor power lines and maximizing high-speed torque.
 * **Hybrid Driver Architecture:**
     * **High-Load Joints (Axis 1~2: Base & Shoulder):** Driven by external industrial-grade **STEPPERONLINE DM556Y** digital drivers. Configured in a Common Anode setup with a direct 5V logic link from the Spider mainboard (no external current-limiting resistors required).
-    * **Precision/Silent Joints (Axis 3~6: Elbow & Wrist 3-Axis):** Driven by **4x onboard TMC2240 drivers** plugged directly into the Spider V3.0, communicating over a high-speed **SPI bus**.
+    * **Precision/Silent Joints (Axis 3~5: Elbow & Wrist 3-Axis):** Driven by **3x onboard TMC2240 drivers** plugged directly into the Spider V3.0, communicating over a high-speed **SPI bus**.
 * **Shoulder Heavy-Duty Power Unit (The Anti-Backdrive Solution):**
     * Dual NEMA 23 (2.2 Nm) stepper motors operating in a dual-axis configuration via Klipper.
     * Integrated **24V Electromagnetic Brakes (Fail-Safe Brakes)** controlled via Klipper macros to lock the arm instantly during power loss or E-Stop, preventing catastrophic backdriving.
