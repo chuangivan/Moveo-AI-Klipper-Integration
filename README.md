@@ -16,7 +16,7 @@ The goal of this phase is to establish a rock-solid electrical, computing, and m
     * **High-Load Joints (Axis 1~2: Base & Shoulder):** Driven by external industrial-grade **STEPPERONLINE DM556Y** digital drivers. Configured in a Common Anode setup with a direct 5V logic link from the Spider mainboard (no external current-limiting resistors required).
     * **Precision/Silent Joints (Axis 3~5: Elbow & Wrist 3-Axis):** Driven by **3x onboard TMC2240 drivers** plugged directly into the Spider V3.0, communicating over a high-speed **SPI bus**.
 * **Shoulder Heavy-Duty Power Unit (The Anti-Backdrive Solution):**
-    * Dual NEMA 23 (2.2 Nm) stepper motors operating in a dual-axis configuration via Klipper.
+    * Dual NEMA 23 (1.9 Nm) stepper motors operating in a dual-axis configuration via Klipper.
     * Integrated **24V Electromagnetic Brakes (Fail-Safe Brakes)** controlled via Klipper macros to lock the arm instantly during power loss or E-Stop, preventing catastrophic backdriving.
     * Paired with **PLF60 1:10 Low-Backlash Planetary Gearboxes (Single-Stage, $\leqslant 12$ arcmin)**, scaling the joint torque to a massive ~40 Nm combined output while preserving the high-speed velocity curve.
 
