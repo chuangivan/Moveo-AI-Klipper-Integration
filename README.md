@@ -21,6 +21,21 @@ The new control cabinet has now been fully assembled, wired, powered on, and val
   - **Ultra-Silent Onboard Drives (Axis 3 to 6)**: 3 × TMC2240 installed on the Spider and powered from the 24V rail for the remaining joints.
 - **Shoulder Joint Reinforcement**: The shoulder joint uses dual NEMA 23 motors with 1:10 planetary gearboxes, providing the torque required for one of the most heavily loaded joints of the Moveo.
 
+### 🚧 Motion Bring-Up — In Progress
+
+Current work:
+
+- finalize `printer.cfg`
+- verify STEP / DIR / EN mappings
+- verify motor direction
+- configure joint parameters
+- configure limit switches and homing
+- validate gripper operation
+- perform controlled physical joint motion
+
+Klipper and Moonraker are installed and running on the Raspberry Pi 5, and the Spider H7 MCU has been successfully detected through CAN.
+
+
 ### 📐 System Architecture
 Below is the electrical and communication flow of the Moveo-AI system:
 
