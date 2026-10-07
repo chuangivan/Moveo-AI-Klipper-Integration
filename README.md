@@ -185,9 +185,14 @@ flowchart TB
 
 ## 📈 Roadmap
 
-- [x] **Phase 1: Electrical & Mechanical Core Overhaul** (32-bit Mainboard, 36V Single-Bus, Brake Motors, 1:10 Planetary Gearbox)
-- [ ] **Phase 2: Klipper Kinematics & 6-Axis Motion Tuning** (Custom Robot Kinematics, Dual-Axis Alignment, Speed/Acceleration Profiling, Soft Limits Configuration)
-- [ ] **Phase 3: Embodied AI Integration** (XMOS XVF3800 Mic Array DOA + Whisper ASR + LLM Intent Parsing + TTS Response + Servo Gripper)
+- **Phase 1: Electrical & Mechanical Core Overhaul — Completed**  
+  Raspberry Pi 5, FYSETC Spider V3.0 H7, 36V power system, DM556Y / TMC2240 hybrid motor control, dual NEMA 23 shoulder motors with 1:10 planetary gearboxes, and the completely rebuilt control cabinet.
+
+- **Phase 2: Klipper Motion Control & 6-Axis Bring-Up — In Progress**  
+  Klipper configuration, joint-by-joint motor validation, homing and limit configuration, motor synchronization, motion calibration, speed / acceleration tuning, and reliable 6-axis physical motion.
+
+- **Phase 3: Embodied & Agentic AI Integration — Planned**  
+  RGB-D vision and object localization, coordinate transformation and inverse kinematics, Agentic AI task planning, Whisper speech recognition, microphone-array DOA localization, TTS interaction, and vision-guided robotic manipulation.
 
 ---
 
